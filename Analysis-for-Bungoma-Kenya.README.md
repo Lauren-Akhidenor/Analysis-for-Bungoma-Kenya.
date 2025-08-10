@@ -84,10 +84,6 @@ Figure 1.3: A graphical Illustration of the frequency of training received.
 ![Image 6](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/6.png)
 
 
-Table 1.2: A table illustrating the sum of household heads based on sex to the use of crop protection on maize (Yes/No) in each sub-county
-
-
-![Image 8](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/8.png)
 
 
 Figure 1.4: A graphical illustration based on Table 1.2
@@ -181,7 +177,7 @@ Interpretation:
 
 - **Years of Farming vs Output:**
 
-Table 1.3 Regression analysis between the years of maize farming and estimated output for all the counties combined.
+Table 1.2 Regression analysis between the years of maize farming and estimated output for all the counties combined.
 
 
 ![Image 14](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/14.png)
@@ -195,7 +191,7 @@ The regression analysis indicates a weak relationship between years of farming a
 - **Total Land Size vs Output:** 
 
 
-Table 1.4: A regression analysis of the total size of all land under production in acres and the estimated output of maize from the main maize plot
+Table 1.3: A regression analysis of the total size of all land under production in acres and the estimated output of maize from the main maize plot
 
 
 ![Image 15](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/15.png)
@@ -211,7 +207,7 @@ The regression analysis shows a highly significant and strong positive relations
 - **Land Size vs Output:**  
 
 
-Table 1.5: A correlation table of the estimated output and total size of land
+Table 1.4: A correlation table of the estimated output and total size of land
 
 
 ![Image 16](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/16.png)
@@ -225,7 +221,7 @@ A strong positive correlation (approximately 0.97) exists between the total size
 
 ##### iv) T-Test
 
-Table 1.6: A T-test table of the total size of all the land under maize production in acres and the estimated output
+Table 1.5: A T-test table of the total size of all the land under maize production in acres and the estimated output
 
 
 ![Image 17](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/17.png)
