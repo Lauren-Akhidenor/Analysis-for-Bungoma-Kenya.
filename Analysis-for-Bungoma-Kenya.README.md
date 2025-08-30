@@ -1,4 +1,4 @@
-# SOCIO-ECONOMIC CHARACTERISTICS, FARMING PARCTICES, AND PRODUCTIVITY OF MAIZE FARMERS IN KENYA BUNGOMA COUNTY.
+# Socioeconomic Characteristics, Farming Paractices, and Productivity of Maize Farmers in Kenya Bungoma County. 
 
 ## 📌 INTRODUCTION
 
@@ -15,7 +15,7 @@ This project analyzes survey data from four sub-counties in Bungoma County: **Ch
 
 ---
 
-## 🎯 OBJECTIVES
+## OBJECTIVES
 
 1. Assess the socio-economic characteristics of maize farmers
 2. Evaluate maize farming practices in the region
@@ -24,7 +24,7 @@ This project analyzes survey data from four sub-counties in Bungoma County: **Ch
 
 ---
 
-## 🧪 METHODOLOGY
+## METHODOLOGY
 
 - **Participants:** 59 farmers
 - **Tools Used:**
@@ -34,7 +34,7 @@ This project analyzes survey data from four sub-counties in Bungoma County: **Ch
 
 ---
 
-## 📊 ANALYSIS
+## ANALYSIS
 
 ### 🔹 Microsoft Excel
 
@@ -388,7 +388,7 @@ Figure 3.3: Data Visualizations using Power Bi
 
 ---
 
-## 🔍 KEY INSIGHTS
+## KEY INSIGHTS
 
 ### Socio-Economic Characteristics
 - **Avg. age:** 51.9  
