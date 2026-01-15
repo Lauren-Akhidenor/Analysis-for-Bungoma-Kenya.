@@ -1,6 +1,6 @@
 # Socioeconomic Characteristics, Farming Paractices, and Productivity of Maize Farmers in Kenya Bungoma County. 
 
-## 📌 INTRODUCTION
+## INTRODUCTION
 
 Kenya is a geographically diverse country with many agroecological zones (AEZs). Maize (*Zea mays* L.) is a staple food for millions of people in Kenya. The total land area under maize production is approximately 1.5 million hectares, with an average annual output of around 3 million metric tons, yielding a national mean of 2 metric tons per hectare. In the high-potential highlands of Kenya, yields typically range from 4 to 8 T/Ha, representing only 50% (or less) of the genetic potential of hybrid varieties.
 
@@ -36,7 +36,7 @@ This project analyzes survey data from four sub-counties in Bungoma County: **Ch
 
 ## ANALYSIS
 
-### 🔹 Microsoft Excel
+###  Microsoft Excel
 
 #### a) Data Cleaning
 - Removed duplicates
@@ -237,7 +237,7 @@ Significant relationship, smaller land sizes can produce higher output
 
 -----------
 
-### 🔹 SPSS ANALYSIS
+### SPSS ANALYSIS
 
 
 Figure 2.1: A figure showing the data exported from Excel to Spss
@@ -360,7 +360,7 @@ Figure 2.7: A Histogram showing the type of fertilizer used
 
 ---
 
-### 🔹 Power BI DASHBOARD
+### Power BI DASHBOARD
 
 **- Data cleaned and transformed**
 
@@ -408,21 +408,21 @@ Figure 3.3: Data Visualizations using Power Bi
 
 ---
 
-## ✅ CONCLUSION
+## CONCLUSION
 
 - **Strong relationship between land size and output**
 - **Years of experience not a reliable predictor**
 - **Smallholder efficiency may drive high yields per acre**
 - **Land size is a major economic variable in planning**
 
-### 📌 RECOMMENDATIONS
+### RECOMMENDATIONS
 - Promote **input efficiency** and training for smallholders
 - Incorporate **non-linear models** in future analysis
 - Explore more variables (e.g., rainfall, seed type)
 
 ---
 
-## ⚠️ LIMITATIONS
+## LIMITATIONS
 
 - T-tests assume equal variance
 - Models may oversimplify production complexity
