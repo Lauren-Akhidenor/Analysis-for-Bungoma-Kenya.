@@ -1,434 +1,278 @@
 # Socioeconomic Characteristics, Farming Paractices, and Productivity of Maize Farmers in Kenya Bungoma County. 
 
-## INTRODUCTION
+----
+> **Impact:** Transformed smallholder survey data into actionable insights, revealing how land access, training, and farming practices influence maize productivity and rural livelihoods in Kenya.
 
-Kenya is a geographically diverse country with many agroecological zones (AEZs). Maize (*Zea mays* L.) is a staple food for millions of people in Kenya. The total land area under maize production is approximately 1.5 million hectares, with an average annual output of around 3 million metric tons, yielding a national mean of 2 metric tons per hectare. In the high-potential highlands of Kenya, yields typically range from 4 to 8 T/Ha, representing only 50% (or less) of the genetic potential of hybrid varieties.
+-----
+## 📌 Project Overview
+-----
+Maize (*Zea mays L.*) is Kenya’s staple crop and a key driver of rural livelihoods. However, productivity remains far below potential due to constraints such as land limitations, low input efficiency, and inconsistent access to agricultural training.
 
-Maize production faces numerous constraints, including drought, low soil fertility, pests, and diseases. Foliar and stalk/ear rot diseases, as well as stem borers, significantly impact production in Kenya’s humid transitional and highland regions. Despite breeding advancements, production has not kept pace with population growth. While chemical control methods can help, **host-plant resistance** remains the most economical and sustainable strategy.
+This project analyzes survey data from **59 maize farmers** across four sub-counties in Bungoma County (Chwele, Sirisia, Tongaren, and Webuye West) to understand how socioeconomic factors and farming practices influence maize output.
 
-This project analyzes survey data from four sub-counties in Bungoma County: **Chwele, Sirisia, Tongaren, and Webuye West**. It aims to understand farming practices, output, training access, and socio-economic characteristics affecting maize production.
+----
 
+## Study Area
+----
+![Bungoma County Map](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/2.jpg)
 
-![Bungoma county map](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/2.jpg)
-
-`Map of Bungoma County`
-
----
-
-## OBJECTIVES
-
-1. Assess the socio-economic characteristics of maize farmers
-2. Evaluate maize farming practices in the region
-3. Assess the level of access to agricultural training
-4. Analyze productivity and output of maize farms
+*Figure: Bungoma County, Kenya*
 
 ---
-
-## METHODOLOGY
-
-- **Participants:** 59 farmers
-- **Tools Used:**
-  - Microsoft Excel: cleaning, coding, averages, visualization
-  - SPSS: descriptive analysis and charts
-  - Microsoft Power BI: dashboard and data visualization
+## Objectives
+----
+- Assess socioeconomic characteristics of maize farmers  
+- Evaluate maize farming practices in the region  
+- Analyze access to agricultural training  
+- Examine productivity and output drivers  
 
 ---
+## Data & Methodology
+---
+### Data
+- Sample size: **59 farmers**
+- Source: Primary survey data
 
-## ANALYSIS
+### Tools Used
+- Microsoft Excel → data cleaning, coding, summary statistics, visualization  
+- SPSS → descriptive statistics, regression, correlation, t-tests  
 
-###  Microsoft Excel
+### Data Preparation
+- Removed duplicates and inconsistencies  
+- Standardized categorical variables  
+- Coded binary responses (Yes = 1, No = 0)  
 
-#### a) Data Cleaning
-- Removed duplicates
-- Standardized entries
 
-#### b) Data Coding
-- Gender: Male = 1, Female = 0  
-- Response: Yes = 1, No = 0  
-- Fertilizer: Both = 1, Inorganic = 0
+---
+## Exploratory Analysis (Excel)
+---
+### 📌 Summary Statistics
+- Average age of household head: **51.9 years**  
+- Average household size: **6.3 persons**  
+- Average land available: **3.46 acres**  
+- Average maize plot size: **2.41 acres**  
+- Average farming experience: **20.83 years**  
+- Average maize output: **22.02 units (self-reported; assumed bags)**  
 
-#### c) Summary Statistics
-- Avg. Age of HH head: 51.9 years  
-- Avg. Household Size: 6.3  
-- Avg. Land Available: 3.46 acres  
-- Avg. Maize Plot Size: 2.41 acres  
-- Avg. Maize Land (total): 1.97 acres  
-- Avg. Main Plot Size: 1.63 acres  
-- Avg. Years of Farming: 20.83  
-- Avg. Maize Output: 22.02 units
 
-**d) Graphical illustrations:**
+##  Excel Visual Explorations
 
+*Farmer Distribution by Sub-county*
 
-Table 1.1: Illustration of the total Individuals based on their sub-county
+![Sub-county Distribution](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/4.png)
 
 
-![Image 3](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/3.png)
+*Gender Distribution*
 
+![Gender Distribution](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/5.png)
 
-Figure 1.1: A Graphical Illustration of individuals based on their sub-county
 
+*Access to Agricultural Training*
 
-![Image 4](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/4.png)
+![Training Access](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/6.png)
 
 
-Figure 1.2: A graphical illustration of the gender frequency from the data
+## 📉 Statistical Analysis on Excel
 
+***Household Size vs Maize Output***
 
-![Image 5](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/5.png)
 
+![Trendline 1](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/11.png)
 
-Figure 1.3: A graphical Illustration of the frequency of training received.
+- Equation: **y = 0.7747x + 1.1996**  
+- R² = **0.6185**
 
-
-![Image 6](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/6.png)
-
-
-
-
-Figure 1.4: A graphical illustration based on Table 1.2
-
-
-![Image 10](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/10.png)
-
-
-
-#### e) Statistical Analysis
-
-##### i) Trendline Analysis
-
-
-- **Household Size vs Output**
-
-Figure 1.5: A trendline analysis showing the household size to the estimated output of maize
-
-
-![Image 11](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/11.png)
-
-
-Equation: y = 0.7747x + 1.1996, R² = 0.6185
-
-
-Where,
-- m = 0.7747x and, b = 1.1996
-- y dependent variable is the estimated output
-- x is the independent variable is the household size
-
-
-Interpretation: 
-- For each additional household member, the estimated maize output is expected to increase by 0.7747 units.
-- The R² value of 0.6185 suggests a moderate positive correlation.
-- The estimated output of maize is 1.1996 when the household size is 0.
- 
-
-
-- **Land Size vs Output**  
-
-Figure 1.6: A trendline Analysis showing the total size of land available to the household in acres to the estimated output of maize.
-
-
-![Image 12](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/12.png)
-
-
-Equation: y = 20.317x — 16.015, R² = 0.9865
-
-
-Where,
-
-
-- m = 20.317 and, b = -16.015
-- y dependent variable is the estimated output
-- x is the independent variable is the total size of land available to the household in acres
-
-
-Interpretation: 
-- For each additional acre of land, maize output is expected to increase by 20.317 units.
-- The R² value of 0.9865 indicates a very strong positive correlation.
-- The estimated output of maize is -16.015 when the total size of land available to the household in acres is 0.
-
-
-
-- **Main Plot Size vs Output**
-
-Figure 1.7: Trendline Analysis showing the size of the main/ major maize plot in acres to the estimated output of maize
-
-
-![Image 13](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/13.png)
-
-
-Equation: y = 13.5x — 0.375, R² = 0.125
-
-
-Where,
-- m = 13.5 and, b = -0.375
-- y dependent variable is the estimated output
-- x is the independent variable is the size of the main/ major plot in acres
-
-
-Interpretation: 
-- Each additional acre in the main maize plot is expected to increase output by 13.5 units.
-- The R² value of 0.125 suggests that other factors not captured by the model significantly affect maize output.
-- The estimated output of maize is -0.375 when the size of the main/ major plot in acres 0. This relatively means there won’t be any form of production or output.
+*Insight:* Household size moderately influences maize output, likely through labor availability.
   
 
+***Land Size vs Maize Output***
 
-##### ii) Regression
+
+![Trendline 2](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/12.png)
+
+- Equation: **y = 20.317x − 16.015**  
+- R² = **0.9865**
+
+*Insight:* Strong structural relationship between land size and total output, reflecting scale effects rather than pure productivity efficiency.
 
 
-- **Years of Farming vs Output:**
+***Main Plot Size vs Output***
 
-Table 1.2 Regression analysis between the years of maize farming and estimated output for all the counties combined.
+![Trendline 3](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/13.png)
 
+- Equation: **y = 13.5x − 0.375**  
+- R² = **0.125**
+
+*Insight:* Main plot size alone is a weak predictor of output, suggesting other agronomic factors matter
+
+
+## Regression & Correlation Analysis on Excel
+
+### Key Findings
+- Years of farming → weak predictor of output
 
 ![Image 14](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/14.png)
 
-
-
-Conclusion:
-The regression analysis indicates a weak relationship between years of farming and maize output. The number of years farming maize is a weak predictor of output.
-
-
-- **Total Land Size vs Output:** 
-
-
-Table 1.3: A regression analysis of the total size of all land under production in acres and the estimated output of maize from the main maize plot
-
+- Land size → strong positive predictor of output
 
 ![Image 15](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/15.png)
 
 
-Conclusion:
-The regression analysis shows a highly significant and strong positive relationship between land size and maize output, explaining 94.71% of the variation in maize output.
+- Correlation (land vs output):
 
-
-
-##### iii) Correlation
-
-- **Land Size vs Output:**  
-
-
-Table 1.4: A correlation table of the estimated output and total size of land
-
+**r ≈ 0.97**
 
 ![Image 16](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/16.png)
 
+---
+## ⚠️ Statistical Notes (Important)
+
+- The t-test comparing land size and output does **not imply productivity efficiency differences**
+- Output per acre would be required for proper efficiency analysis  
+- High R² values reflect structural relationships, not causality  
+- Output is recorded in **self-reported agricultural units (assumed standard bags)**  
+
+---
+## SPSS Analysis Summary
+
+The SPSS analysis provides a descriptive overview of farmer socioeconomic characteristics and agricultural practices in Bungoma County.
+
+### Socioeconomic Characteristics
+- Majority of households are male-headed  
+- Farmers are mainly concentrated in middle-aged groups  
+- Land ownership is primarily formal (title deeds) or family-based  
+
+### Farming Practices
+- Fertilizer usage is nearly universal among respondents  
+- Hand-weeding is the most commonly used weed control method  
+- Conventional tillage is the dominant land preparation practice  
+
+### Training & Extension Services
+- A large proportion of farmers received agricultural training  
+- Extension officers and agro-dealers are the main sources of agricultural advice  
+
+### Production Characteristics
+- Maize output varies significantly across households  
+- Land size shows a strong association with production capacity  
 
 
-Conclusion:
-A strong positive correlation (approximately 0.97) exists between the total size of land and maize output, indicating that larger land sizes are associated with higher maize yields.
 
+## 📎 Appendix: SPSS Output Tables and Figures
 
-
-##### iv) T-Test
-
-Table 1.5: A T-test table of the total size of all the land under maize production in acres and the estimated output
-
-
-![Image 17](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/17.png)
-
-
-- Mean land = 1.97 acres
-- mean output = 22.02 units  
-- t = -2.1425, p = 0.0342
-
-
-Conclusion:
-Significant relationship, smaller land sizes can produce higher output
-
------------
-
-### SPSS ANALYSIS
-
-
-Figure 2.1: A figure showing the data exported from Excel to Spss
-
-
+### Figure 2.1: Data Export from Excel to SPSS
 ![Image 18](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/18.png)
 
+---
 
-
-
-**i) **Frequency distributions****
-
-  
-Table 2.1: Frequencies and statistics showing the Sex of household heads including their valid and missing values
-
-
+### Table 2.1: Sex of Household Heads (Frequencies)
 ![Image 19](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/19.png)
-
-
-
 ![Image 20](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/20.png)
 
+---
 
-Table 2.2: Frequencies showing Sex of household head, age, size of all land, and estimated output including valid and missing values including their Sub-counties
-
-Note: Male was coded as 1 and Female as 0
-
-
+### Table 2.2: Socioeconomic Variables (Sex, Age, Land Size, Output, Sub-county)
 ![Image 21](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/21.png)
-
-
 ![Image 22](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/22.png)
 
+---
 
-Table 2.3: Frequencies based on type of land ownership
-
-
+### Table 2.3: Type of Land Ownership
 ![Image 23](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/23.png)
 
-
-Figure 2.2: A bar chart showing the type of land ownership
-
-
+### Figure 2.2: Land Ownership Distribution
 ![Image 24](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/24.png)
 
+---
 
-Table 2.4: Frequency table showing the total size of all land under maize production in acres.
-
-
+### Table 2.4: Total Land Size Under Maize Production
 ![Image 25](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/25.png)
 
+---
 
-Table 2.5: Frequencies showing the estimated output of maize
-
-
+### Table 2.5: Estimated Maize Output
 ![Image 26](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/26.png)
 
+---
 
-Figure 2.3: A histogram illustrating the age of household head in years
-
-
+### Figure 2.3: Age Distribution of Household Heads
 ![Image 27](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/27.png)
 
+---
 
-Table 2.6: Frequencies based on the use of fertilizer on maize plot
-
-Note: Yes was coded as 1 and No as 0
-
-
+### Table 2.6: Fertilizer Use on Maize Plots
 ![Image 28](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/28.png)
 
+---
 
-Table 2.7: Frequencies based on the type of tillage used
-
-
+### Table 2.7: Type of Tillage Used
 ![Image 29](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/29.png)
 
-
-Figure 2.4: A bar chart illustration based on the type of tillage used
-
-
+### Figure 2.4: Tillage Practices
 ![Image 30](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/30.png)
 
+---
 
-Table 2.8: Frequencies based on training received and where it was gotten from
-
-
+### Table 2.8: Training Received and Sources of Advice
 ![Image 31](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/31.png)
-
-
 ![Image 32](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/32.png)
 
-
-Figure 2.5: A bar chart Illustrating where participants received advice from
-
-
+### Figure 2.5: Sources of Agricultural Advice
 ![Image 33](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/33.png)
 
+---
 
-Table 2.9: Frequencies based on method of weeding and fertilizer usage
-
-
+### Table 2.9: Weeding and Fertilizer Practices
 ![Image 34](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/34.png)
-
-
 ![Image 35](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/35.png)
 
+---
 
-Figure 2.6: A histogram showing the use of fertilizer.
-
-
+### Figure 2.6: Fertilizer Usage Distribution
 ![Image 36](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/36.png)
 
-
-Figure 2.7: A Histogram showing the type of fertilizer used
-
-
+### Figure 2.7: Types of Fertilizer Used
 ![Image 37](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/37.png)
 
 
 ---
-
-### Power BI DASHBOARD
-
-**- Data cleaned and transformed**
-
-
-Figure 3.1: A figure showing the data set in power Bi after being transformed
-
-
-![Image 38](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/38.png)
-
-
-**- Interactive visualizations:**
-
-
-Figure 3.2: Data Visualizations using Power Bi
-
-
-![Image 39](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/39.png)
-
-
-Figure 3.3: Data Visualizations using Power Bi
-
-
-![Image 40](https://github.com/Lauren-Akhidenor/Analysis-for-Bungoma-Kenya./raw/main/40.png)
-
-
+## Key Insights
 ---
-
-## KEY INSIGHTS
-
-### Socio-Economic Characteristics
-- **Avg. age:** 51.9  
-- **Mostly male-headed households**  
-- **Education:** Mostly primary and secondary  
-- **30** participants have **title deeds**
+### Socioeconomic Factors
+- Average farmer age: 51.9 years  
+- Male-headed households dominate  
+- Education levels clustered around primary/secondary  
 
 ### Farming Practices
-- **57** farmers use **plowing**  
-- **All** use fertilizer (33 use both types)  
-- **Hand-weeding** is dominant  
-- **43** use crop protection measures
+- Fertilizer usage is universal  
+- Hand weeding remains dominant  
+- Crop protection practices widely adopted  
 
-### Training and Advice
-- **40** received training  
-- Sources: Extension agents, agro-dealers, NGOs, research institutions
-
----
-
-## CONCLUSION
-
-- **Strong relationship between land size and output**
-- **Years of experience not a reliable predictor**
-- **Smallholder efficiency may drive high yields per acre**
-- **Land size is a major economic variable in planning**
-
-### RECOMMENDATIONS
-- Promote **input efficiency** and training for smallholders
-- Incorporate **non-linear models** in future analysis
-- Explore more variables (e.g., rainfall, seed type)
+### Training Access
+- 40 out of 59 farmers received training  
+- Extension services are the primary knowledge source  
 
 ---
-
-## LIMITATIONS
-
-- T-tests assume equal variance
-- Models may oversimplify production complexity
-- Future research should include more diverse variables
+## Analytical Insights
+--
+- Land size is the strongest determinant of total output  
+- Farming experience is not a strong productivity predictor  
+- Productivity is driven more by **scale and inputs than time**  
+- Structural effects dominate regression relationships  
 
 ---
+## ⚠️ Limitations
+---
+- Small sample size (n = 59)  
+- Self-reported output values  
+- No yield-per-acre analysis included  
+- T-test not suitable for productivity efficiency inference  
 
-> _This analysis contributes to better policy-making and resource allocation for maize production in Kenya._
+---
+## Recommendations
+---
+- Introduce yield (output per acre) analysis in future work  
+- Include non-linear regression models  
+- Expand dataset for regional representativeness  
+- Evaluate training impact using comparative group testing  
+- Incorporate rainfall, soil quality, and seed variety data  
 
