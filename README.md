@@ -1,4 +1,4 @@
-# Socioeconomic Characteristics, Farming Paractices, and Productivity of Maize Farmers in Kenya Bungoma County. 
+# Maize Productivity in Bungoma County, Kenya: Socioeconomic and Agronomic Drivers of Smallholder Output
 
 ----
 > **Impact:** Transformed smallholder survey data into actionable insights, revealing how land access, training, and farming practices influence maize productivity and rural livelihoods in Kenya.
